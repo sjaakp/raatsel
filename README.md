@@ -1,2 +1,6 @@
-# raatsel
- Hexagon puzzel
+Raatsel
+=========
+### Hexagon puzzel ###
+
+#### Experiment met Tau Prolog ####
+

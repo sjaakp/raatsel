@@ -1,0 +1,41 @@
+{
+  "name": "@sjaakp/raatsel",
+  "version": "1.0.0",
+  "description": "Honingraatpuzzel volgens J.J. Steenhuis",
+  "browser": "./dist/raatsel.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "prepare": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaakp/raatsel.git"
+  },
+  "keywords": [
+    "puzzle",
+    "ai"
+  ],
+  "author": "Sjaak Priester <sjaak@sjaakpriester.nl> (https://sjaakpriester.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjaakp/raatsel/issues"
+  },
+  "homepage": "https://github.com/sjaakp/raatsel#readme",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "rollup": "^2.38.4",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-terser": ">=7.0.2"
+  },
+  "dependencies": {
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "tau-prolog": "^0.3.0"
+  }
+}
