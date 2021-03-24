@@ -27,10 +27,6 @@ class RaatselAsset extends AssetBundle
         'raatsel.js'
     ];
 
-    public $depends = [
-        'yii\web\JqueryAsset'
-    ];
-
     public $publishOptions = [
         'forceCopy' => YII_DEBUG
     ];
